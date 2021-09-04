@@ -1,0 +1,39 @@
+@media screen and (max-width:425px){
+  body{
+    text-align: center;
+  }
+
+  .container{
+    width: 95%;
+    max-width: 100%;
+    margin: auto 0;
+  }
+  .container img{
+    width: 100%;
+    height: auto;
+  }
+  .menu{
+    display: block;
+
+  }
+  li{
+    margin: 0;
+    padding: 20px;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width:425px) and (max-width:768px){
+  body{
+    background-color: lightyellow;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+}

@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../bootcamp proyecto grupal"
 		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "bootcamp proyecto individual"
-	}
+	]
 }

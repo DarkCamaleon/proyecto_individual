@@ -4,6 +4,7 @@ body{
   background-color: lightgrey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+
 }
 
 .menu{
@@ -38,4 +39,16 @@ ul{
 
 .pie-de-pagina p{
   margin: 0;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+}
+
+.seccion-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
