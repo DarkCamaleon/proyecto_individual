@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.menu{
+  display: flex;
+  justify-content: end;
+
+}
+
+li{
+  list-style: none;
+  margin: 20px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.cabecera{
+  background-color: black;
+  color: white;
+}
+
+.pie-de-pagina{
+  background-color: black;
+  color: white;
+}
+
+ul{
+  margin: 0;
+}
+
+.pie-de-pagina p{
+  margin: 0;
+}
