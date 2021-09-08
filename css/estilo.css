@@ -3,14 +3,24 @@ body{
   padding: 0;
   background-color: lightgrey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
+  text-align: center;
 }
 
+
+
+
+header{
+  background-color: black;
+    
+}
 .menu{
   display: flex;
   justify-content: end;
 
+}
+
+ul{
+  margin: 0;
 }
 
 li{
@@ -21,24 +31,25 @@ li{
 
 a{
   text-decoration: none;
-}
-
-.cabecera{
-  background-color: black;
   color: white;
 }
 
-.pie-de-pagina{
-  background-color: black;
-  color: white;
+
+
+
+
+
+.seccion-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 5px solid black;
+  
+
 }
 
-ul{
-  margin: 0;
-}
-
-.pie-de-pagina p{
-  margin: 0;
+.responsivo{
+  border: 5px solid black;
 }
 
 img{
@@ -46,9 +57,32 @@ img{
   height: 500px;
 }
 
-.seccion-img{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+footer{
+  background-color: black;
+  color: white;
+  height: auto;
+}
 
+footer p{
+  margin: 0;
+  padding: 16px;
+}
+
+button{
+  text-decoration: none;
+    padding: 40px;
+    font-family: arial;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+    background-color: #9b0e0e;
+}
+
+button:hover{
+  color: #9b0e0e;
+    background-color: #bc6355;
+    text-decoration: none;
 }
