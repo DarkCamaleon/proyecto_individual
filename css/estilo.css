@@ -11,7 +11,7 @@ body{
 
 header{
   background-color: black;
-    
+
 }
 .menu{
   display: flex;
@@ -44,7 +44,7 @@ a{
   flex-wrap: wrap;
   justify-content: center;
   border: 5px solid black;
-  
+
 
 }
 
@@ -68,7 +68,7 @@ footer p{
   padding: 16px;
 }
 
-button{
+.botonimg{
   text-decoration: none;
     padding: 40px;
     font-family: arial;
@@ -81,7 +81,21 @@ button{
     background-color: #9b0e0e;
 }
 
-button:hover{
+.botonimg:hover{
+  color: #9b0e0e;
+    background-color: #bc6355;
+    text-decoration: none;
+}
+
+#botonav{
+  text-decoration: none;
+
+    font-family: arial;
+    color: black;
+    background-color: #9b0e0e;
+}
+
+#botonav:hover{
   color: #9b0e0e;
     background-color: #bc6355;
     text-decoration: none;

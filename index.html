@@ -13,8 +13,10 @@
     <script type="module">
         import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
     </script>
+  <script src="./js/main.js"></script>
 </head>
 <body>
+
   <header class="container">
     <nav class="container-menu">
       <ul class="menu">
@@ -35,6 +37,9 @@
 
         <li>
           <a href="./pages/contacto.html">Contacto</a>
+        </li>
+        <li>
+          <button onclick="cambiarcolor()" id="botonav">cambiar color de fondo</button>
         </li>
       </ul>
     </nav>
@@ -60,21 +65,21 @@
         <img data-fancybox="gallery" src="./img/vinos-41.webp" alt="">
         <figcaption>Baron Phillippe De Rothschild Mapu</figcaption>
         <figcaption>Precio $ 5.990</figcaption>
-        <button name="comprar">Comprar</button>
+        <button name="comprar" class="botonimg">Comprar</button>
       </figure>
 
       <figure class=" wrapper responsivo">
         <img data-fancybox="gallery" src="./img/img2.jpeg" alt="">
         <figcaption>Pack 10 Botellas Vino Tradicional</figcaption>
         <figcaption>Precio $ 29.990</figcaption>
-        <button name="comprar">Comprar</button>
+        <button name="comprar" class="botonimg">Comprar</button>
       </figure>
 
       <figure class=" wrapper responsivo">
         <img data-fancybox="gallery" src="./img/img3.jpeg" alt="">
         <figcaption>2 Vino Premiun (Oveja Negra Single Vineyard Cabernet Sauvignon)</figcaption>
         <figcaption>Precio $ 30.000</figcaption>
-        <button name="comprar">Comprar</button>
+        <button name="comprar" class="botonimg">Comprar</button>
       </figure>
     </section>
   </main>
