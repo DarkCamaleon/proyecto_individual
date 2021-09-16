@@ -36,9 +36,6 @@ a{
 
 
 
-
-
-
 .seccion-img{
   display: flex;
   flex-wrap: wrap;
@@ -99,4 +96,18 @@ footer p{
   color: #9b0e0e;
     background-color: #bc6355;
     text-decoration: none;
+}
+
+.form-inventario{
+  padding: 20px;
+  text-align: center;
+}
+
+.ingresar{
+  padding: 20px;
+  margin: 20px;
+}
+
+textarea{
+  resize: none;
 }
