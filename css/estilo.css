@@ -111,3 +111,11 @@ footer p{
 textarea{
   resize: none;
 }
+
+.catalogo{
+  text-align: left;
+}
+
+.catalogo ol li{
+  list-style: inherit;
+}
